@@ -25,17 +25,15 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-  line-height: 1.7;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 14px;
+  line-height: 1.7;
   color: #777;
   background: #fff;
   margin-top: 5em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
+
 html {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
@@ -50,10 +48,9 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 400;
   margin: 0 0 20px 0;
 }
-
 .container-fa {
   max-width: 1140px;
-  margin: auto;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
@@ -120,16 +117,21 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .panel:hover{
+
   transform: scale(1.05);
   transition-duration: 0.21s;
   background: #f5f5f5;
+  
 }
+
 .social {
+
   width: 100%;
   text-align: center;
   position: relative;
   Top: 12px;
   left: -140px;
+
 }
 
 .social a {
@@ -170,19 +172,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   Top: -26px;
   Right: -30px;
-  
-}
-.c-links{
-  flex: 0 0 100%;
-  max-width: 100%;
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
-.actions a:hover {
-  color: #000;
-}
 
 
