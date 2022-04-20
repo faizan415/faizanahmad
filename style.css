@@ -102,7 +102,6 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 30px;
   width: 100%;
   max-width: 1380px;
-  min-width: auto;
   display: flex;    
   flex-direction: row;
   flex-wrap: wrap;
@@ -114,9 +113,8 @@ h1, h2, h3, h4, h5, h6, figure {
   color: black;
   padding: 2em;
   border-radius: 5px;
-  width: 100vh;
+  width: 100%;
   max-width: 320px;
-  min-width: auto;
   margin: 1em;
   justify-content: center;
 }
