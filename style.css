@@ -25,15 +25,17 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
+  line-height: 1.7;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
   color: #777;
   background: #fff;
   margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 html {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
@@ -48,11 +50,19 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 400;
   margin: 0 0 20px 0;
 }
+#page {
+  padding: 2em;
+  width: 100%;
+  max-width: 1350px;
+  display: inline-flex; 
+  flex-wrap: wrap;
+}
 .container-fa {
-  max-width: 1140px;
-  margin: 0 auto;
+  margin: auto;
   padding-left: 15px;
   padding-right: 15px;
+  width: 100%;
+  max-width: 1240px;
   text-align: center;
 }
 
@@ -72,10 +82,12 @@ h1, h2, h3, h4, h5, h6, figure {
   text-decoration: none;
   color: #ffa500;
 }
-.fa-heading p{
+.fa-heading {
   margin: 2rem;
   padding-left: 15px;
   padding-right: 15px;
+  width: 100vw;
+  display: block;
   text-align: center;
 }
 
@@ -84,7 +96,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-weight: bold;
   color: black;
-  text-align: center;
+  text-align: center; 
 }
 
 .fa-description {
@@ -104,34 +116,33 @@ h1, h2, h3, h4, h5, h6, figure {
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
+  align-items: center;
 }
 .panel {
   background:lightgray;
   color: black;
   padding: 2em;
   border-radius: 5px;
-  width: 100%;
-  max-width: 320px;
+  width: auto;
+  min-width: auto;
+  max-width: 340px;
   margin: 1em;
-  justify-content: center;
 }
-
+.panel h3{
+  font-weight: 600;
+}
 .panel:hover{
-
   transform: scale(1.05);
   transition-duration: 0.21s;
   background: #f5f5f5;
-  
 }
 
 .social {
-
   width: 100%;
   text-align: center;
   position: relative;
   Top: 12px;
   left: -140px;
-
 }
 
 .social a {
@@ -166,13 +177,10 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 3px;
   margin: .5em;
   text-decoration: none;
-  background-color: black;
+  background-color: #222222;
   color: white;
   float: left;
   position: relative;
   Top: -26px;
-  Right: -30px;
+  Right: -40px;
 }
-
-
-
