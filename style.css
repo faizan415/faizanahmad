@@ -123,8 +123,8 @@ h1, h2, h3, h4, h5, h6, figure {
   color: black;
   padding: 2em;
   border-radius: 5px;
-  width: auto;
-  min-width: auto;
+  width: 100vw;
+  min-width: 325px;
   max-width: 340px;
   margin: 1em;
 }
